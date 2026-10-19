@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a synthetic conceptual GIF for the SOC-DarkWatch README."""
+"""Generate a synthetic conceptual six-stage GIF for the SOC-DarkWatch README."""
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 OUT=Path(__file__).resolve().parents[1]/"assets"/"darkwatch-workflow.gif"
