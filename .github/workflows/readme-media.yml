@@ -1,7 +1,7 @@
 name: Generate SOC-DarkWatch README GIF
 on:
   push:
-    branches: [upgrade/audit-ready-visuals]
+    branches: [main]
     paths: ["scripts/generate_visuals.py", ".github/workflows/readme-media.yml"]
   workflow_dispatch:
 permissions:
