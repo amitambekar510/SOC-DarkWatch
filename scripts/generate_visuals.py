@@ -20,7 +20,7 @@ for idx,(title,subtitle,detail) in enumerate(stages):
     im=Image.new("RGB",(1100,440),"#081827")
     d=ImageDraw.Draw(im)
     d.rounded_rectangle((22,20,1078,420),radius=20,fill="#123047",outline="#3aaf9e",width=3)
-    d.text((55,53),"SOC-DARKWATCH   /   AUDIT-READY WORKFLOW",font=font(25),fill="#55e3cb")
+    d.text((55,53),"SOC-DARKWATCH 2.0  /  AUDIT-READY WORKFLOW",font=font(25),fill="#55e3cb")
     d.text((55,119),title,font=font(36),fill="#ffffff")
     d.text((55,176),subtitle,font=font(22),fill="#c8e0eb")
     d.text((55,215),detail,font=font(18),fill="#a3c0d0")
