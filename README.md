@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/darkwatch-hero.svg" alt="SOC-DarkWatch — dark web exposure monitoring and audit evidence readiness" width="100%">
+<img src="assets/darkwatch-hero.svg" alt="SOC-DarkWatch 2.0 — dark web exposure monitoring and audit evidence readiness" width="100%">
 
-# SOC-DarkWatch
+# SOC-DarkWatch 2.0
 ### Open-source dark-web exposure monitoring · SOC integration · Audit evidence readiness
 
 ![Approach](https://img.shields.io/badge/Approach-Open%20Source-25c4a4?style=for-the-badge) ![Monitoring](https://img.shields.io/badge/Monitoring-Passive%20%26%20Authorized-6189d8?style=for-the-badge) ![Cost](https://img.shields.io/badge/Software%20License-%240%20Possible-25c4a4?style=for-the-badge) ![Readiness](https://img.shields.io/badge/Audit-Evidence%20Support-e2b56c?style=for-the-badge)
@@ -13,7 +13,7 @@
 
 </div>
 
-## 🎞️ Visual walkthrough
+## 🎞️ SOC-DarkWatch 2.0 visual walkthrough
 
 <div align="center">
 <img src="assets/darkwatch-workflow.gif" alt="Animated synthetic example: discover, validate, enrich, correlate, escalate, document" width="100%">
@@ -25,15 +25,15 @@
 
 ## Why this matters to organizations and auditors
 
-An organization may already operate a SIEM, firewall, ticketing system, endpoint controls, and threat-intelligence workflows yet have **limited visibility into externally exposed credentials, brand impersonation, and breach mentions**. SOC-DarkWatch provides a **practical starting point** to add a documented monitoring process to that existing environment.
+An organization may already operate a SIEM, firewall, ticketing system, endpoint controls, and threat-intelligence workflows yet have **limited visibility into externally exposed credentials, brand impersonation, and breach mentions**. SOC-DarkWatch 2.0 provides a **practical starting point** to add a documented monitoring process to that existing environment.
 
 For audit preparation, it can help demonstrate that the organization has **defined monitoring scope, assigned ownership, reviewed potential exposure, escalated validated findings, retained appropriate evidence, and tracked remediation**. Those records are more meaningful than simply claiming to own a monitoring tool.
 
-**This project is a phased implementation blueprint, not a deployed dark-web intelligence service.** Monitoring results, actual coverage, and audit acceptance depend on local implementation, approvals, evidence quality, and auditor/regulator interpretation. **Using SOC-DarkWatch alone does not establish compliance or satisfy a mandatory dark-web monitoring obligation.**
+**This project is a phased implementation blueprint, not a deployed dark-web intelligence service.** Monitoring results, actual coverage, and audit acceptance depend on local implementation, approvals, evidence quality, and auditor/regulator interpretation. **Using SOC-DarkWatch 2.0 alone does not establish compliance or satisfy a mandatory dark-web monitoring obligation.**
 
 ### What the proposed workflow adds
 
-| Existing capability | Proposed SOC-DarkWatch contribution | Evidence to retain |
+| Existing capability | Proposed SOC-DarkWatch 2.0 contribution | Evidence to retain |
 |---|---|---|
 | ELK / existing SIEM | Correlate validated external-exposure indicators with internal telemetry | Detection rules, sample alerts, event lineage |
 | FortiGate / existing firewall | Segment the research environment and log controlled egress | Approved policy, change record, firewall logs |
