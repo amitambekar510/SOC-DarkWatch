@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/darkwatch-hero.svg" alt="SOC-DarkWatch 2.0 — dark web exposure monitoring and audit evidence readiness" width="100%">
+<img src="assets/darkwatch-hero.svg?v=2.0.1" alt="SOC-DarkWatch 2.0 — dark web exposure monitoring and audit evidence readiness" width="100%">
 
 # SOC-DarkWatch 2.0
 ### Open-source dark-web exposure monitoring · SOC integration · Audit evidence readiness
@@ -16,7 +16,7 @@
 ## 🎞️ SOC-DarkWatch 2.0 visual walkthrough
 
 <div align="center">
-<img src="assets/darkwatch-workflow.gif" alt="Animated synthetic example: discover, validate, enrich, correlate, escalate, document" width="100%">
+<img src="assets/darkwatch-workflow.gif?v=2.0.1" alt="Animated synthetic example: discover, validate, enrich, correlate, escalate, document" width="100%">
 
 *Animated conceptual workflow using fictional findings. Not a screenshot of a live deployment.*
 
